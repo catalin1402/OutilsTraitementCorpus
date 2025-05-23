@@ -19,9 +19,13 @@
 
 ### Partie 2 | projet:
 Définissez les besoins de votre projet:
-dans quel besoin vous inscrivez vous ?
-quel sujet allez vous traiter ?
-quel type de tâche allez vous réaliser ?
-quel type de données allez vous exploiter ?
-où allez vous récupérer vos données ?
-sont-elles libres d'accès ?
+1. Dans quel besoin vous inscrivez vous ?
+   => Il s'agit d'une analyse automatisée du contenu médiatique (presse écrite plus particulièrement) pour mieux comprendre les thématiques traitées dans la presse.
+2. Quel sujet allez vous traiter ?
+   => Le sujet traité est l'identification automatique des thématiques dans un corpus d’articles de presse. Pour ce projet, les thématiques choisies sont "culture" et "sport".
+3. Quel type de tâche allez vous réaliser ?
+   => Il s'agit d'une tâche de classification supervisée.
+4. Quel type de données allez vous exploiter ?
+   => Les données exploitées sont des données textuelles (titres et contenu des articles). Le corpus est composé de 20 articles de sport et de 20 articles de culture.
+5. Où allez vous récupérer vos données ? sont-elles libres d'accès ?
+   => Les données sont récupérées sur des journaux en ligne. Pour chacun des deux thèmes, 5 articles sont selectionnés dans chacune des 4 sources suivantes : Le Monde, Midilibre, Le Parisien, L'Express. Les articles sont libres d’accès (le contenu n'est pas utilisé à des fins commerciales et n'est pas republié tel quel. De plus, les politiques de scraping du fichier robot.txt ont été respectées).
