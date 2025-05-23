@@ -29,3 +29,6 @@ Définissez les besoins de votre projet:
    => Les données exploitées sont des données textuelles (titres et contenu des articles). Le corpus est composé de 20 articles de sport et de 20 articles de culture.
 5. Où allez vous récupérer vos données ? sont-elles libres d'accès ?
    => Les données sont récupérées sur des journaux en ligne. Pour chacun des deux thèmes, 5 articles sont selectionnés dans chacune des 4 sources suivantes : Le Monde, Midilibre, Le Parisien, L'Express. Les articles sont libres d’accès (le contenu n'est pas utilisé à des fins commerciales et n'est pas republié tel quel. De plus, les politiques de scraping du fichier robot.txt ont été respectées).
+
+## TP4
+J'ai choisi de créer un dataset synthétique en utilisant le modèle mt5-base afin de créer de nouveaux articles en paraphrasant les articles initialement récupérés. Puis, j'ai utilisé le modèle camemBERT pour la tâche de classification.
